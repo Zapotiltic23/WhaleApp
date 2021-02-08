@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		11C7104E25CF4DD100019EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7104D25CF4DD100019EC6 /* AppDelegate.swift */; };
 		11C7105025CF4DD100019EC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7104F25CF4DD100019EC6 /* SceneDelegate.swift */; };
-		11C7105225CF4DD100019EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7105125CF4DD100019EC6 /* ViewController.swift */; };
+		11C7105225CF4DD100019EC6 /* WhaleCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7105125CF4DD100019EC6 /* WhaleCollectionController.swift */; };
 		11C7105525CF4DD100019EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C7105325CF4DD100019EC6 /* Main.storyboard */; };
 		11C7105725CF4DD200019EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C7105625CF4DD200019EC6 /* Assets.xcassets */; };
 		11C7105A25CF4DD200019EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C7105825CF4DD200019EC6 /* LaunchScreen.storyboard */; };
+		11C7106525CF501300019EC6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7106425CF501300019EC6 /* NetworkManager.swift */; };
+		11C7106925CF506C00019EC6 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7106825CF506C00019EC6 /* Fetcher.swift */; };
+		11C7107225CF50C000019EC6 /* WhaleURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7107125CF50C000019EC6 /* WhaleURLs.swift */; };
+		11C7107725CF51A800019EC6 /* WhaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7107625CF51A800019EC6 /* WhaleCell.swift */; };
+		11C7107B25CF9DE800019EC6 /* Whale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7107A25CF9DE800019EC6 /* Whale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11C7104A25CF4DD100019EC6 /* WhaleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhaleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C7104D25CF4DD100019EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11C7104F25CF4DD100019EC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11C7105125CF4DD100019EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11C7105125CF4DD100019EC6 /* WhaleCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleCollectionController.swift; sourceTree = "<group>"; };
 		11C7105425CF4DD100019EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11C7105625CF4DD200019EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C7105925CF4DD200019EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11C7105B25CF4DD200019EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C7106425CF501300019EC6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		11C7106825CF506C00019EC6 /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		11C7107125CF50C000019EC6 /* WhaleURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleURLs.swift; sourceTree = "<group>"; };
+		11C7107625CF51A800019EC6 /* WhaleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleCell.swift; sourceTree = "<group>"; };
+		11C7107A25CF9DE800019EC6 /* Whale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		11C7104C25CF4DD100019EC6 /* WhaleApp */ = {
 			isa = PBXGroup;
 			children = (
+				11C7107525CF518C00019EC6 /* Custome Cells */,
+				11C7107025CF50A500019EC6 /* Enumerations */,
+				11C7106725CF505A00019EC6 /* Protocols */,
+				11C7106325CF4FEA00019EC6 /* NetworkManager */,
 				11C7104D25CF4DD100019EC6 /* AppDelegate.swift */,
 				11C7104F25CF4DD100019EC6 /* SceneDelegate.swift */,
-				11C7105125CF4DD100019EC6 /* ViewController.swift */,
+				11C7105125CF4DD100019EC6 /* WhaleCollectionController.swift */,
 				11C7105325CF4DD100019EC6 /* Main.storyboard */,
 				11C7105625CF4DD200019EC6 /* Assets.xcassets */,
 				11C7105825CF4DD200019EC6 /* LaunchScreen.storyboard */,
 				11C7105B25CF4DD200019EC6 /* Info.plist */,
+				11C7107A25CF9DE800019EC6 /* Whale.swift */,
 			);
 			path = WhaleApp;
+			sourceTree = "<group>";
+		};
+		11C7106325CF4FEA00019EC6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				11C7106425CF501300019EC6 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		11C7106725CF505A00019EC6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11C7106825CF506C00019EC6 /* Fetcher.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		11C7107025CF50A500019EC6 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				11C7107125CF50C000019EC6 /* WhaleURLs.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		11C7107525CF518C00019EC6 /* Custome Cells */ = {
+			isa = PBXGroup;
+			children = (
+				11C7107625CF51A800019EC6 /* WhaleCell.swift */,
+			);
+			path = "Custome Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C7105225CF4DD100019EC6 /* ViewController.swift in Sources */,
+				11C7106525CF501300019EC6 /* NetworkManager.swift in Sources */,
+				11C7105225CF4DD100019EC6 /* WhaleCollectionController.swift in Sources */,
 				11C7104E25CF4DD100019EC6 /* AppDelegate.swift in Sources */,
+				11C7107725CF51A800019EC6 /* WhaleCell.swift in Sources */,
+				11C7107225CF50C000019EC6 /* WhaleURLs.swift in Sources */,
+				11C7107B25CF9DE800019EC6 /* Whale.swift in Sources */,
+				11C7106925CF506C00019EC6 /* Fetcher.swift in Sources */,
 				11C7105025CF4DD100019EC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4LHGXBCB7;
 				INFOPLIST_FILE = WhaleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4LHGXBCB7;
 				INFOPLIST_FILE = WhaleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
